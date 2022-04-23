@@ -40,3 +40,31 @@ class SecondCounter(threading.Thread):
         self.alive = False
         return self.value
 
+def intro():
+  while True:
+       print("╔════════════════════════════════════════╗")
+       print("")
+       n = input("  Please enter your first name ➣ ")
+       if n.isalpha():
+           print("    ----------------------")
+           print("    Hello! " +      n)
+           print("    ----------------------")
+           print("")
+           break
+       else:
+           print("  Please enter your first name with letters only, and don't leave empty spaces")
+           
+  
+  
+  inst=input("  Press enter to proceed  :")
+  print("")
+  print("╚════════════════════════════════════════╝")
+  if inst=="y":
+      print("")
+      print("")
+  else:
+      print("")
+      print("")
+      print("╭⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯╮")
+      print("     ▏WELCOME TO MY MATH QUIZ FELLOW COMPUTER SCIENCE MEMBERS! ▏")
+      print("╰⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯╯")
